@@ -65,7 +65,7 @@ It combines a drag-and-drop slide editor with a comprehensive student management
 
 ## 🧩 Dependencies
 
-This project relies on the following open-source libraries, all of which are loaded via CDN:
+This project relies on the following open-source libraries (MIT license), all of which are loaded via CDN:
 
 | Library | Version | Purpose |
 | :--- | :--- | :--- |
