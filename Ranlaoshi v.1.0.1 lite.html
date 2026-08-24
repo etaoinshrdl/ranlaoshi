@@ -3,27 +3,6 @@
   Ranlaoshi v1.0.1 lite
   Date: 2026-08-23
 
-  v1.0.1 lite notes (core improvements ported from the v1.0.1 Pro build):
-  • Arrow-key slide navigation: in the Lectures view with no element selected and
-    not editing text, ArrowUp/ArrowDown moves to the previous/next slide in the
-    active topic (updates activeSlideId, resets Session, refreshes canvas/sidebar,
-    auto-scrolls to the newly selected slide, saves debounced, shows "Slide N/M").
-    Added to the global keydown listener as a new else-if branch, with the new
-    scrollToActiveSlideInSidebar() helper.
-  • Edit dropdown (Copy / Paste / Duplicate) now works on slides when no canvas
-    element is selected, reusing the same keyboard shortcuts (Ctrl+C/V/D).
-    - copyElement(): copies the selected element, or falls back to copying the
-      active slide into Session.copiedSlide (clearing copiedElement).
-    - pasteElement(): pastes a copied element, or a copied slide into the current
-      topic via the new pasteSlideIntoTopic() helper.
-    - duplicateElement(): duplicates the selected element, or the active slide via
-      the existing duplicateSlide() (added as a reusable helper).
-    - pasteSlideIntoTopic(topicId): deep-clones the copied slide, remaps element
-      IDs and label-line target references, expands the target topic/lecture, and
-      activates the pasted slide.
-  • Status messages now distinguish elements vs slides.
-  (Only Navigation + Editing core improvements were applied; all advanced/curriculum
-   and glossary-editor changes from Pro were intentionally left out.)
 -->
 <html lang="en">
 <head>
