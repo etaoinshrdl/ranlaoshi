@@ -7,8 +7,6 @@ Ranlaoshi is a powerful, single-page HTML application that lets teachers build, 
 
 It combines a drag-and-drop slide editor with a comprehensive student management system (gradebook, attendance, points, merits) and an immersive presentation mode.
 
-https://img.shields.io/badge/License-MIT-blue.svg
-
 ✨ Key Features
 
 🛠️ Slide Editor
